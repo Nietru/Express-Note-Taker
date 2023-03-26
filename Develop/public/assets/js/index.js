@@ -4,21 +4,6 @@ let saveNoteBtn;
 let newNoteBtn;
 let noteList;
 
-const fs = require("fs");
-const express = require("express");
-// create our instance
-const app = express();
-const path = require("path");
-const PORT = 3001;
-
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "assets", "notes.html"));
-});
-// make express listen to our port
-app.listen(PORT, () => {
-  console.log("server listening at localhost:" + PORT);
-});
-
 if (window.location.pathname === "/notes") {
   noteTitle = document.querySelector(".note-title");
   noteText = document.querySelector(".note-textarea");
