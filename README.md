@@ -26,7 +26,7 @@ Using npm i will download all of these modules.
 ```
 A user can enter Notes/tasks with a title and description that are saved using front and back end javascript technologies.
 This project can be tested out in the browser.
-![Picture of the Heroku deployed web application Express Note Taker](./Express-Note-Taker/Assets/Capture.PNG?raw=true)
+![Picture of the Heroku deployed web application Express Note Taker](./Assets/Capture.PNG?raw=true)
 ```
 
 ```
